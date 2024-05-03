@@ -1,0 +1,52 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    nargin:0;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#calcul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+#calcul input {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: right;
+}
+#calcul button input{
+    padding: .5rem;
+}
+#da,#mi,#umu,#del,#quatro,#rav,#step,#koren {
+    grid-column-start: 4;
+}
+#da{
+    grid-row-start:2 ;
+}
+#mi{
+    grid-row-start:3 ;
+}
+#umu{
+    grid-row-start:4 ;
+}
+#del{
+    grid-row-start: 5;
+}
+#quatro{
+    grid-row-start:6 ;
+}
+#rav{
+    grid-row-start:9 ;
+}
+#step{
+    grid-row-start:7 ;
+}
+#koren{
+    grid-row-start:8;
+}
